@@ -1,0 +1,48 @@
+{
+  "name": "mern-simple-setup",
+  "version": "1.0.0",
+  "description": "A simple application with Webpack, Babel, and Nodemon configuration to check development environment setup for React-Node-Express-MongoDB based web application development.",
+  "main": "app.js",
+  "scripts": {
+    "development": "nodemon",
+    "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
+    "start": "NODE_ENV=production node ./dist/server.generated.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludralph/mern-simple-setup.git"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "react",
+    "express"
+  ],
+  "author": "Raphael Etim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ludralph/mern-simple-setup/issues"
+  },
+  "homepage": "https://github.com/ludralph/mern-simple-setup#readme",
+  "dependencies": {
+    "babel-loader": "^7.1.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.20"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^2.0.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
