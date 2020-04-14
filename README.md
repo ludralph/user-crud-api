@@ -1,5 +1,13 @@
-# mern-simple-setup
-A simple application with Webpack, Babel, and Nodemon configuration to check development environment setup for React-Node-Express-MongoDB based web application development.
+# Introduction
+This application will encapsulate rudimentary features and workflow repeated for most mern applications. This will be a fully functioning app with User Create, Update and Delete with authentication-authorization capabilities.
+
+## Features
+
+**Signup:** User can register by creating a new account using an email address.
+**User List:** Any visitor can see the list of all registered users.
+**Authentication:** Registered users can sign in and sign out.
+**Protected User Profile:** only registered users can view individual user details after signing in.
+**Authorized user Edit and Delete:** Only a registered and authenticated user can edit or remove their own user account details.
 
 ## What you need to run this code
 1. Node
