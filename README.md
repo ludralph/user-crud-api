@@ -3,11 +3,15 @@ This application will encapsulate rudimentary features and workflow repeated for
 
 ## Features
 
-**Signup:** User can register by creating a new account using an email address.
-**User List:** Any visitor can see the list of all registered users.
-**Authentication:** Registered users can sign in and sign out.
-**Protected User Profile:** only registered users can view individual user details after signing in.
-**Authorized user Edit and Delete:** Only a registered and authenticated user can edit or remove their own user account details.
+**1. Signup:** User can register by creating a new account using an email address.
+
+**2. User List:** Any visitor can see the list of all registered users.
+
+**3. Authentication:** Registered users can sign in and sign out.
+
+**4. Protected User Profile:** only registered users can view individual user details after signing in.
+
+**5. Authorized user Edit and Delete:** Only a registered and authenticated user can edit or remove their own user account details.
 
 ## What you need to run this code
 1. Node
