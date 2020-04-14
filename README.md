@@ -13,6 +13,20 @@ This application will encapsulate rudimentary features and workflow repeated for
 
 **5. Authorized user Edit and Delete:** Only a registered and authenticated user can edit or remove their own user account details.
 
+## API endpoints for user crud
+
+
+| Operation        | API route          | HTTP method  |
+| -------------    |:------------------:| ------------:|
+| create a user    | /api/users         |   POST       |
+| List all users   | /api/users         |   GET        |
+| Fetch a user     | /api/users/:userId |   GET        |
+| Update a user    | /api/users/:userId |   PUT        |
+| Delete a user    | /api/users/:userId |   DELETE     |
+| User sign-in     | /auth/signin       |   POST       |
+| User sign-out    | /auth/signout      |   GET        |    
+
+
 ## What you need to run this code
 1. Node
 2. NPM
