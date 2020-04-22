@@ -27,8 +27,13 @@
   "homepage": "https://github.com/ludralph/mern-simple-setup#readme",
   "dependencies": {
     "babel-loader": "^7.1.5",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "helmet": "^3.22.0",
     "mongodb": "^3.5.5",
+    "mongoose": "^5.9.9",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.20"
